@@ -1,12 +1,6 @@
 # DevOps Learning Journey
 
-Your personal repository for tracking progress through the CoderCo DevOps curriculum.
-
-## Quick Start
-
-1. Click **"Use this template"** then **"Create a new repository"**
-2. Clone your new repo locally
-3. Start learning and commit your progress
+My personal repository for tracking progress through the CoderCo DevOps curriculum.
 
 ![UseTemplate](./images/UseTemplate.png)
 
@@ -47,66 +41,8 @@ Each module contains:
 | 08 - CI/CD | Not Started | 0/0 | 0/0 | 0/0 |
 | 09 - Kubernetes | Not Started | 0/0 | 0/0 | 0/0 |
 
-Update this table as you progress.
 
-## How to Use This Repo
 
-### Taking Notes
-
-After each lesson, create a note:
-
-```bash
-touch 01-linux/notes/file-permissions.md
-```
-
-Write in your own words – this helps you remember.
-
-### Completing Labs
-
-Document what you did and what you learned:
-
-```bash
-touch 01-linux/labs/lab01-basic-commands.md
-```
-
-Include commands, outputs, and any errors you hit.
-
-### Building Projects
-
-Create a folder with your code and a README:
-
-```
-01-linux/projects/backup-script/
-├── backup.sh
-└── README.md
-```
-
-## Best Practices
-
-**Commit often** – After each lesson, lab, or meaningful progress.
-
-**Write good commit messages:**
-
-```bash
-# Bad
-git commit -m "updates"
-
-# Good
-git commit -m "Add notes on Linux file permissions"
-```
-
-**Stay organised** – Put files in the right folders.
-
-**Share your progress** – Post on LinkedIn, tag @CoderCo!
-
-## Useful Links
-
-- [CoderCo Community](https://www.skool.com/coderco)
-- [CoderCo Dotfiles](https://github.com/coderco-learning/dotfiles)
-
-## License
-
-MIT – Use this template however you like.
 
 ---
 
