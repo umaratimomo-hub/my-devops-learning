@@ -1,10 +1,10 @@
 # Notes
 
-Add your notes here as you progress through this module.
+My notes while progressing through this module.
 
 ## Template
 
-When creating a new note, you can use this structure:
+Notes may include the following:
 
 ```markdown
 # Topic Name
@@ -27,7 +27,5 @@ When creating a new note, you can use this structure:
 (your own summary)
 ```
 
-## Your Notes
 
-- [ ] Add your first note
 
