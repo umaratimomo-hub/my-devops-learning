@@ -32,5 +32,5 @@ Key takeaways from this lab.
 
 ## Completed Labs
 
-- [ ] Add your first lab
+- [ modules ] Add your first lab
 
