@@ -1,19 +1,17 @@
 # Projects
 
-Build hands-on projects to reinforce your learning.
+Hands-on projects built to reinforce learning.
 
 ## Project Structure
-
-Each project should have:
 
 ```
 project-name/
 ├── README.md       # What it does, how to run it
-├── script.sh       # Your code (or main file)
+├── script.sh       # Code (or main file)
 └── examples/       # Example outputs (optional)
 ```
 
-## Your Projects
+## Projects
 
-- [ ] Add your first project
+- [ ] first project
 
