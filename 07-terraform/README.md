@@ -1,6 +1,6 @@
 # 07 - Terraform
 
-Infrastructure as Code (IaC) – define your infrastructure in code, version it, and automate deployments.
+Infrastructure as Code (IaC) – define infrastructure in code, version it, and automate deployments.
 
 ## What I Learnt
 
