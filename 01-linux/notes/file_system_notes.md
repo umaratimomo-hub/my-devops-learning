@@ -1,5 +1,5 @@
 #Some useful commamnds in Linux
-
+|     |     |
 | --- | --- |
 | Grep - grep "error" path/to/file | This highlights all the instances of the word 'error' in a given file. |
 | echo “Hello World” > file.txt | This writes the words Hello World into file.txt. '>' overwrites the file with the new text. '>>' adds to the file. |
