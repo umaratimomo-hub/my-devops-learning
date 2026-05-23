@@ -1,10 +1,10 @@
 # Labs
 
-Document your completed labs here.
+Documentation of completed labs
 
 ## Template
 
-When documenting a lab, include:
+Documentation may include:
 
 ```markdown
 # Lab: [Lab Name]
