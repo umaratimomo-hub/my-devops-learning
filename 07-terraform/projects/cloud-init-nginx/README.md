@@ -40,7 +40,7 @@ This assignment shows how Terraform manages real infrastructure end-to-end.
 
 ## Key take-aways 
 
-Similar to the wordpress project, I learnt the benefits of modular structuring and the importance of using variables to achieve idempotency. In addition, I came to understand how to allow different types of scripts can be utilised based on terraform if statement capabilities. This makes the Terraform module highly reusable. If one project team needs to pass plain text, and another team needs Base64 for a different type of infrastructure, they can use the exact same code block just by changing the boolean input variable linked to the if statement code block.
+Similar to the wordpress project, I learnt the benefits of modular structuring and the importance of using variables to achieve idempotency. In addition, I came to understand how  different types of scripts (cloud-init:plain text or user-data:base64)can be utilised based on terraform if statement capabilities. This makes the Terraform module highly reusable. If one project team needs to pass plain text, and another team needs Base64 for a different type of infrastructure, they can use the exact same code block just by changing the boolean input variable linked to the if statement code block.
 
 ## Problems encountered
 
