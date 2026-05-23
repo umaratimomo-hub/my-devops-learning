@@ -20,7 +20,7 @@ Linux is the foundation of DevOps. Most servers, containers, and cloud infrastru
 └── projects/    # Hands-on projects
 ```
 
-## Suggested Projects
+## Projects
 
 - [ ] Create a system info script that displays OS, memory, disk usage
 - [ ] Set up a new user with specific permissions
