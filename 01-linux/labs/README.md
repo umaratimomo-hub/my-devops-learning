@@ -23,7 +23,7 @@ What was the goal?
 
 ## Challenges
 
-Any issues you hit and how you solved them.
+Any issues I met and how I solved them.
 
 ## What I Learned
 
