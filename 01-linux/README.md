@@ -2,7 +2,7 @@
 
 Linux is the foundation of DevOps. Most servers, containers, and cloud infrastructure run on Linux.
 
-## What You'll Learn
+## Topics studied
 
 - Navigating the file system
 - File permissions and ownership
@@ -15,7 +15,7 @@ Linux is the foundation of DevOps. Most servers, containers, and cloud infrastru
 
 ```
 01-linux/
-├── notes/       # Your notes from lessons
+├── notes/       # Notes from lessons
 ├── labs/        # Completed lab exercises
 └── projects/    # Hands-on projects
 ```
