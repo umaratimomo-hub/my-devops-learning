@@ -1,0 +1,36 @@
+#cloud-config
+
+# 1. Update the package repository and upgrade existing packages
+package_update: true
+package_upgrade: true
+
+# 2. Install Nginx and any utility packages you might need
+packages:
+  - nginx
+  - curl
+
+# 3. Create a custom index.html to verify it's working
+write_files:
+  - owner: www-data:www-data
+    path: /var/www/html/index.html
+    content: |
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <title>Welcome to Nginx via Cloud-Init</title>
+          <style>
+              body { font-family: sans-serif; text-align: center; margin-top: 10%; background-color: #f4f4f9; }
+              h1 { color: #333; }
+          </style>
+      </head>
+      <body>
+          <h1>NGINX deployment using cloud-init via Terraform</h1>
+          <p>This Ubuntu server was automatically configured with Nginx using cloud-init.</p>
+      </body>
+      </html>
+
+# 4. Open the firewall and ensure Nginx starts automatically
+runcmd:
+  - ufw allow 'Nginx HTTP'
+  - systemctl enable nginx
+  - systemctl start nginx
