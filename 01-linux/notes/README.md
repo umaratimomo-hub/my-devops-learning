@@ -24,7 +24,7 @@ Notes may include the following:
 
 ## What I Learned
 
-(your own summary)
+(my own summary)
 ```
 
 
