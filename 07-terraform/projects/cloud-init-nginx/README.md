@@ -40,11 +40,10 @@ This assignment shows how Terraform manages real infrastructure end-to-end.
 
 ## Key take-aways 
 
-Similar to the wordpress project, I learnt the benefits of modular structuring and the importance of using variables to achieve idempotency. In addition, I came to understand how  different types of scripts (cloud-init:plain text or user-data:base64)can be utilised based on terraform if statement capabilities. This makes the Terraform module highly reusable. If one project team needs to pass plain text, and another team needs Base64 for a different type of infrastructure, they can use the exact same code block just by changing the boolean input variable linked to the if statement code block.
+Similar to the wordpress project, I learnt the benefits of modular structuring and the importance of using variables to achieve idempotency. In addition, I came to understand how different types of scripts (cloud-init (yaml), user-data(bash), plain text, base64)can be utilised based on terraform's conditional logic capabilities. This makes the Terraform module highly reusable. If one project team needs to pass plain text, and another team needs Base64 for a different type of infrastructure, they can use the exact same code block just by changing the boolean input variable linked which varies the outcome of the if statement code block thereby allowing the desired script type to be used.
 
 ## Problems encountered
 
-Problem:
+Problem: There was an unexpected error when I first ran terraform plan where terraform flagged the conditional logic code block.
 
-Solution:
-
+Solution: I realised I had placed the conditional code block outside of the instance resource block meaning it was not able to be parsed in correctly.
