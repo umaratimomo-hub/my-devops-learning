@@ -2,7 +2,7 @@
 
 Infrastructure as Code (IaC) – define infrastructure in code, version it, and automate deployments.
 
-## What I Learnt
+## What I studied
 
 - Terraform basics and HCL syntax
 - Providers and resources
