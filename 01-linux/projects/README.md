@@ -13,7 +13,8 @@ project-name/
 └── examples/       # Example outputs (optional)
 ```
 
-## Your Projects
+## Projects
 
-- [ ] Add your first project
-
+- [ ] Create a system info script that displays OS, memory, disk usage
+- [ ] Set up a new user with specific permissions
+- [ ] Write a log rotation script
