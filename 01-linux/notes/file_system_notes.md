@@ -1,4 +1,4 @@
-#Some useful commamnds in Linux
+# Some useful commamnds in Linux
 |     |     |
 | --- | --- |
 | Grep - grep "error" path/to/file | This highlights all the instances of the word 'error' in a given file. |
