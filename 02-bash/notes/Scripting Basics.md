@@ -1,0 +1,28 @@
+- run script in command line with **./script_name.sh**
+- if you don’t specify #!/bin/bash/ in the script, you can use **sh script_name[.sh](http://script.sh)** or **bash script_name.sh** to run it in the command line
+- multiline comment - use **: ‘ ‘** (colon space single quote …..text…. single quote)
+- to add script to PATH - sudo mv **script_name.**[.sh](http://script.sh) usr/local/bin/script_name then sudo chmod +x usr/local/bin/script_name to give executable permissions as normal
+- array - fruit=(”apples”, “oranges”, “bananas”)
+- strings need “ “ and numbers don’t need them
+- - continue - this skips the condition and continues on with the rest
+- break - this exits when a condition is met
+- functions - have a set process it does when any parameter is passed to it
+- $#- prints script path
+- $1 - prints 1st parameter
+- $2 - prints 2nd parameter
+- $@ - prints all parameters
+- bad data can be controlled by- conditional statements, error exit codes (to affirm correct or error info), input sanitisation (to clean up input that doesn’t meet required format)
+- $? - shows the error value. 0 is no error.
+- exit 1 - exit if condition isn’t met
+- return 0 - condition is met
+- error number 2 - normally means system doesn’t understand something
+- set -e - put in your script if you want it to automatically exit due to non zero exit codes. You may not always want to exit in those situations so you would avoid using it in then
+- set -u- prevents script from running due to misssing data
+- set -x and set+x - prints out the steps before the final execution to follow the steps to see where things go wrong. Use set +x to come out of debugging for the next section of your script.
+- use set -eux - to use all previous actions
+- set -o nounset = set -u
+- set -o - errexit = set -e
+- set -o pipefail - shows what made a pipeline fail
+- echo “export PATH=$PATH:~/script_name” >> ~/.zshrc -this adds the line in quotes to the zshrc file so it executes it everytime zsh loads. The command being executed basically enables the script to be added to the environment variables.
+- md5sum - generates a unique string for a file to verify that file. You can check the checksums over time to see if they match.
+- sha256sum- also a checksum
