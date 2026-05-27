@@ -1,0 +1,6 @@
+export MY_VAR="Hello World” (makes a variable)
+echo $MY_VAR (to check it has been created)
+vim .zshrc (to add new variable (echo $MY_VAR) to the config file)
+source .zshrc then exit (to make the variable restart as default)
+$PATH is actually where it looks for executable commands
+export PATH=$PATH:/home/ubuntu (to store the current directory in the $PATH variable where the executables are so that any script files created from now on can be automatically executed without the need for ./ infront)
