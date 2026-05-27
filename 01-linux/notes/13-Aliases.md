@@ -1,0 +1,4 @@
+- Aliases are for setting custom cammands
+- alias (lists current aliases)
+- alias hello='echo "Hello World"’ (sets Hello world as the alias hello)
+- save them in the config file as before vim (.zshrc or .bashrc) and then source (.zshrc or .bashrc) to make default
