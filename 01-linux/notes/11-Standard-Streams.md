@@ -1,0 +1,14 @@
+- standard input - the action of a command taking in an input to be run
+- standard output - the action of a producing the output of a previously entered input onto the screen
+- standard error - the output of the program returning an error message
+- '> file.txt' - redirect stdout to a file and overwrite content. Shows stderr on screen.
+- '2> file.txt' - redirect stderr to a file and overwrite content. Shows stdout on screen.
+- '&> file.txt' - redirect both stdout and stderr to a file and overwrite content. Nothing output to screen.
+- '>> file.txt' - redirect stdout to a file and add to file content
+- '2>> file.txt' - redirect stderr to a file and add to file content
+- '&>> file.txt' - redirect stderr to a file and add to file content
+- '> /dev/null' - redirect stdout and block it from appearing on screen
+- '2> /dev/null' - redirect a stderr and block it from appearing on screen
+- '&>/dev/null' - redirect both stout and stderr and block them from appearing on screen
+- ls nonexist.txt 2> error.txt (to redirect a standard error to a file)
+- ls nonexist file.txt &> output.txt (to redirect 2 or more outputs to a file)
