@@ -1,6 +1,0 @@
-- **cp file.txt file_copy.txt** (makes a copy of file.txt as a new file called file_copy.txt)
-- **cp -r my_directory my_directory_2** (makes a copy of my_directory as a new directory called my_directory_2)
-- **mv file.txt file_new.txt** (renames files)
-- **mv file.txt Directory** (moves file to another directory called Directory
-- **rm file.txt** (removes the file)
-- **rm -r Directory** (removes the directory called Directory)
