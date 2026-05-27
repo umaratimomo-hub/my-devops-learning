@@ -1,22 +1,43 @@
 vim example.txt (creates example.txt file and goes into vim command mode which allows you to write text inside the file.)
+
 i (within vim command mode, pressing i allows you to insert and edit text)
+
 v (within vim command mode, pressing v allows you to view text)
+
 pressing Esc (within vim command mode, pressing Esc allows you to come out of insert and visual)
+
 :wq (within vim command mode, pressing :wq allows you to save and exit vim command mode)
+
 :wq! (within vim command mode, pressing :wq! allows you to save and force quit if it gets stuck)
+
 :q! (within the vim command mode :q! allows you to exit without saving) 
+
 w (within vim command mode, jumps to the next word)
+
 b (within vim command mode, jumps to the previous word)
+
 :4 (within vim command mode, jumps to the 4th line)
+
 /This (within vim command mode, finds the word This in the file)
+
 n (within vim command mode, finds the next find example) 
+
 N (within vim command mode, goes back to the previous find example)
+
 dd (within vim command mode, deletes that line)
- D (within vim command mode, deletes from the cursor to the end of the line)
+
+D (within vim command mode, deletes from the cursor to the end of the line)
+
 yy (within vim command mode, copies text)
+
 p (within vim command mode, pastes copied text)
+
 u (within vim command mode, undoes action)
+
 ctrl r (within vim command mode, redoes action)
+
 :syntax on (within vim command mode, highlights any commands present in text)
+
 :set number (within vim command mode, puts numbering for each line)
+
 :set nonumber (within vim command mode, takes off numbering of lines)
