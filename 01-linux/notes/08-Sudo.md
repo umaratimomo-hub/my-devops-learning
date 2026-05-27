@@ -1,0 +1,4 @@
+- sudo + command (super user permissions )
+- sudo su (changes to root user)
+- rm -rf / (remove everything from the system)
+- sudo tail + directory path (gives last 10 actions that were performed with sudo)
