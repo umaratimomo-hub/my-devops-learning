@@ -1,0 +1,2 @@
+- **echo $SHELL** (displays the default shell type e.g. bash (**b**orn **a**gain **sh**ell))
+- **echo $PATH** (tells shell in which directory to look for the program to run the command)
