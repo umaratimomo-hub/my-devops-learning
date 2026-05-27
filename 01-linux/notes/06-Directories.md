@@ -1,0 +1,5 @@
+- **mkdir -p project/src/components** (creates a directory called project with another inside called src with another inside that called components)
+- **ls -R** (shows all directories with their subdirectories)
+- **ls -R** project (just shows the project directory and its subdirectories)
+- **rm -r** project (removes the project directory and its subdirectories)
+- **rmdir** (can only remove an empty directory unlike rm -r above)
