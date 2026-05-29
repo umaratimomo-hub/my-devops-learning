@@ -1,0 +1,28 @@
+name: "Terraform error checker"
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # This points the runner directly into your task2 folder for all commands
+    defaults:
+      run:
+        working-directory: ./Task2
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Check formatting
+        run: terraform fmt -check -recursive
+
+      - name: Initialize Terraform
+        run: terraform init -backend=false
+
+      - name: Validate code
+        run: terraform validate
