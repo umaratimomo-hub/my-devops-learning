@@ -4,8 +4,6 @@ My personal repository for tracking progress through the CoderCo DevOps curricul
 
 ![UseTemplate](./images/UseTemplate.png)
 
-![Screenshot 2026-05-29 124543](./08-cicd/labs/screenshots/Screenshot 2026-05-29 124543.png)
-
 ![CreateRepo](./images/Createrepo.png)
 
 ## Repository Structure
